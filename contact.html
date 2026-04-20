@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Asep Pirdaus</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="index.html" class="nav-logo">Asep<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="certificates.html">Certificates</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <div class="nav-mobile" id="navMobile">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="projects.html">Projects</a>
+    <a href="certificates.html">Certificates</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <div class="page-wrapper">
+    <section class="section">
+
+      <div class="section-header reveal">
+        <div class="section-tag">Hubungi Saya</div>
+        <h1 class="section-title">Mari <span>Terhubung.</span></h1>
+        <p class="section-desc">
+          Tertarik untuk berkolaborasi, menawarkan magang, atau sekadar ingin menyapa?
+          Jangan ragu untuk menghubungi saya.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+
+        <!-- Contact Info -->
+        <div class="contact-info reveal">
+          <p class="contact-text">
+            Saya selalu terbuka untuk peluang baru — magang, freelance, atau diskusi seputar
+            jaringan komputer dan teknologi. Kirim pesan dan saya akan segera membalas!
+          </p>
+
+      
+
+          <!-- CV Download -->
+          <div style="margin-top: 2.5rem;">
+            <p style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 1rem;">📄 Curriculum Vitae</p>
+            <a href="cv.pdf" class="btn-cv" download style="display:inline-flex;">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Download CV (PDF)
+            </a>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-wrap reveal">
+          <form id="contactForm" class="contact-form">
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label">Nama *</label>
+                <input type="text" class="form-input" placeholder="Nama lengkap kamu" required />
+              </div>
+              <div class="form-group">
+                <label class="form-label">Email *</label>
+                <input type="email" class="form-input" placeholder="email@kamu.com" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Subjek *</label>
+              <input type="text" class="form-input" placeholder="Tawaran magang / Kolaborasi / Pertanyaan..." required />
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Pesan *</label>
+              <textarea class="form-textarea" rows="6" placeholder="Ceritakan kebutuhan kamu di sini..." required></textarea>
+            </div>
+
+            <button type="submit" class="form-submit btn-primary">
+              Kirim Pesan →
+            </button>
+
+            <div class="form-success" style="display:none;">
+              <span>✓</span> Pesan terkirim! Saya akan membalas dalam 1-2 hari kerja.
+            </div>
+
+          </form>
+        </div>
+
+      </div>
+
+    </section>
+  </div>
+
+  <footer>
+    <div class="footer-logo">Asep<span>.</span></div>
+    <p class="footer-copy">© 2026 Asep Pirdaus — SMK Jurusan TKJ</p>
+    <div class="footer-socials">
+      <a href="https://github.com/aseppirdaus302-gif" class="social-link" title="GitHub" target="_blank">GH</a>
+      <a href="https://www.linkedin.com/in/asep-pirdaus-865a7a403?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link" title="LinkedIn" target="_blank">in</a>
+      <a href="https://www.instagram.com/uus_dreamer" class="social-link" title="Instagram" target="_blank">IG</a>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
