@@ -252,8 +252,16 @@ ul { list-style: none; }
 /* =========================================
    PAGE WRAPPER
    ========================================= */
-.page-wrapper { padding-top: var(--nav-height); }
+.page-wrapper {
+  padding-top: var(--nav-height);
+  min-height: 100vh;        /* ← tambah ini */
+  display: flex;            /* ← tambah ini */
+  flex-direction: column;   /* ← tambah ini */
+}
 
+.page-wrapper .section {
+  flex: 1;                  /* ← section mengisi sisa ruang */
+}
 /* =========================================
    HERO
    ========================================= */
